@@ -1,0 +1,670 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Cómo Bolivia se volvió en un país urbano y desigual</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <!-- Primary Meta Tags -->
+    <title>Cómo Bolivia se volvió en un país urbano y desigual</title>
+    <meta name="title" content="Cómo Bolivia se volvió en un país urbano y desigual">
+    <meta name="description"
+        content="Hoy en día, el 75% de los bolivianos viven en ciudades, por lo cual hacer de ellas un lugar más equitativo debería ser una política prioritaria para las autoridades en todos los niveles de gobierno. ¿Pero realmente se están tomando con seriedad este problema?">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Cómo Bolivia se volvió en un país urbano y desigual">
+    <meta property="og:description"
+        content="Hoy en día, el 75% de los bolivianos viven en ciudades, por lo cual hacer de ellas un lugar más equitativo debería ser una política prioritaria para las autoridades en todos los niveles de gobierno. ¿Pero realmente se están tomando con seriedad este problema?">
+    <meta property="og:image" content="https://blog.ciudatos-bolivia.org/diseno-calles/img/calles-thumbnail2.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:title" content="Cómo Bolivia se volvió en un país urbano y desigual">
+    <meta property="twitter:description"
+        content="Hoy en día, el 75% de los bolivianos viven en ciudades, por lo cual hacer de ellas un lugar más equitativo debería ser una política prioritaria para las autoridades en todos los niveles de gobierno. ¿Pero realmente se están tomando con seriedad este problema?">
+    <meta property="twitter:image" content="https://blog.ciudatos-bolivia.org/diseno-calles/img/calles-thumbnail2.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
+
+    <style>
+        /* General */
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Lato', sans-serif;
+            font-size: 18px;
+            line-height: 1.5;
+            color: #333;
+            margin: 0;
+        }
+
+        h1 {
+            font-family: 'Oswald', sans-serif;
+            font-weight: bold;
+            line-height: 1.1;
+            margin: 0;
+            padding: 0;
+            font-size: 30px;
+            text-align: center;
+            margin-top: 1rem;
+        }
+
+        h2 {
+            font-family: 'Oswald', sans-serif;
+            font-weight: bold;
+            line-height: 1.1;
+            margin: 0;
+            padding: 0;
+            font-size: 20px;
+            margin-bottom: 1rem;
+        }
+
+        iframe {
+            border: none;
+            aspect-ratio: 16/9;
+            width: 100%;
+        }
+
+        a {
+            color: #d059c2;
+        }
+
+        /* Intro y Outro */
+
+
+
+        #intro-fig {
+            position: relative;
+        }
+
+        .texto {
+            padding-inline: min(30vw, 5%);
+            text-align: left;
+            color: rgb(0, 0, 0);
+            background-color: #ffffff;
+            padding-top: 40px;
+            padding-bottom: 40px;
+            padding-left: 28vw;
+            padding-right: 28vw;
+        }
+
+        .texto-3 {
+            padding-inline: min(30vw, 5%);
+            text-align: left;
+            color: rgb(255, 255, 255);
+            background-color: #121212;
+            padding-top: 40px;
+            padding-left: 28vw;
+            padding-right: 28vw;
+        }
+
+        .logo-cont {
+            display: flex;
+            height: 200px;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .logociudatos {
+            margin-right: 20px;
+        }
+
+        .logolab {
+            margin-left: 20px;
+        }
+
+        /* Scrollama style */
+
+        .scrolly {
+            position: relative;
+            padding: 0.1px;
+        }
+
+        .figure__full {
+            position: -webkit-sticky;
+            position: sticky;
+            top: 0;
+            left: 0;
+            height: 100vh;
+            width: 100vw;
+            z-index: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+        }
+
+        .figure__semifull {
+            position: -webkit-sticky;
+            position: sticky;
+            top: 0;
+            left: 20%;
+            height: 100vh;
+            width: 80vw;
+            z-index: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+        }
+
+        .article__center {
+            position: relative;
+            padding: 0;
+            max-width: 30rem;
+            margin: 0 auto;
+        }
+
+        .article__left {
+            position: relative;
+            padding: 0;
+            max-width: 30rem;
+            margin: 0 auto;
+            right: 30%;
+        }
+
+        .step {
+            margin: 40rem auto;
+            background: rgba(0, 0, 0, 0.75);
+            border-radius: 2px;
+            padding: 1.25em;
+            text-align: center;
+            box-shadow: rgba(0, 0, 0, 0.3) 0px 0px 10px;
+            color: rgb(255, 255, 255);
+        }
+
+        /* Lista */
+        .row {
+            display: flex;
+        }
+
+        .column {
+            flex: 50%;
+            font-size: 12px;
+        }
+
+        /* Images */
+        .image__full {
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+            max-height: 100vh;
+            max-width: 100vw;
+        }
+
+        .image__center {
+            height: 100%;
+            width: 100%;
+            object-fit: contain;
+            max-height: 100vh;
+            max-width: 100vw;
+            padding: 1rem;
+        }
+
+        .cita {
+            display: flex;
+            text-align: center;
+            font-size: 18px;
+            padding: 2rem;
+            font-style: italic;
+        }
+
+        /* Media queries */
+
+
+        @media screen and (max-width: 480px) {
+            .figure__full {
+                height: 100vh;
+                width: 100vw;
+            }
+
+            .figure__semifull {
+                height: 100vh;
+                width: 100vw;
+            }
+
+            .article__center {
+                max-width: 20rem;
+                margin: 0 auto;
+                font-size: 14px;
+            }
+
+            .article__left {
+                max-width: 20rem;
+                margin: 0 auto;
+                right: 0;
+                font-size: 14px;
+            }
+
+            .step {
+                margin: 30rem auto;
+            }
+
+            .texto {
+                padding-left: 7vw;
+                padding-right: 7vw;
+                font-size: 16px;
+            }
+
+            .texto-3 {
+                padding-left: 7vw;
+                padding-right: 7vw;
+                font-size: 16px;
+            }
+        }
+
+        @media screen and (min-width: 1080px) {
+            #outro {
+                margin: 0 20rem;
+            }
+
+            #texto {
+                margin: 0 20rem;
+            }
+        }
+
+        /* Indicador */
+
+        .indicator {
+            position: absolute;
+            bottom: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: rgba(0, 0, 0, 0.5);
+            color: white;
+            padding: 30px;
+            border-radius: 5px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            animation: fadeOut 8s forwards;
+
+        }
+
+        .arrow-icon {
+            width: 20px;
+            height: 20px;
+            transform: rotate(45deg);
+            animation: arrowAnim 1s infinite;
+        }
+
+        @keyframes arrowAnim {
+            0% {
+                transform: translateY(0);
+            }
+
+            50% {
+                transform: translateY(10px);
+            }
+
+            100% {
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes fadeOut {
+            0% {
+                opacity: 0;
+            }
+
+            50% {
+                opacity: 1;
+            }
+
+            100% {
+                opacity: 0;
+            }
+        }
+    </style>
+    <script src="https://unpkg.com/scrollama"></script>
+</head>
+
+<body>
+    <main>
+        <section class="scrolly" data-flourishid="2075668">
+            <figure class="figure__full">
+                <iframe class="image__full" scrolling="no"
+                    src="https://flo.uri.sh/story/2075668/embed#slide-0"></iframe>
+                <div class="indicator">
+                    <p>Desliza</p>
+                    <p>hacia abajo</p>
+                    <span class="arrow-icon material-symbols-outlined">
+                        keyboard_double_arrow_down
+                    </span>
+                </div>
+            </figure>
+
+            <article class="article__center">
+                <div class="step" data-step="0">
+                    <p>Esta es la Avenida Heroínas de la ciudad de Cochabamba.</p>
+                </div>
+
+                <div class="step" data-step="1">
+                    <p>Parece ordinaria, pero para muchos es una frontera que divide la zona norte y la zona sur de la ciudad, donde las condiciones de vida son muy diferentes.</p>
+                </div>
+
+                <div class="step" data-step="2">
+                    <p>En la zona norte, compuesta por los distritos 1, 2, 3, 4, 10, 11 y 12, la mayoría de la gente tiene acceso a agua potable y alcantarillado.
+                    </p>
+                </div>
+
+                <div class="step" data-step="2">
+                    <p>Hay más espacios verdes, y las escuelas, centros de salud y centros de abastecimiento, por lo general, <a href="https://www.cityaccessmap.com/">están más cerca de donde vive la gente.</a></p>
+                </div>
+
+                <div class="step" data-step="3">
+                    <p>En cambio, en la Zona Sur, que comprende los distritos 5, 6, 7, 8, 9 , 14 y 15, gran parte de la población todavía recibe agua de camiones cisterna o la consigue de pozos precarios. Además, miles de familias todavía no tienen alcantarillado.
+                    </p>
+                </div>
+
+                <div class="step" data-step="3">
+                    <p>En el sur está la planta de tratamiento de aguas residuales y el botadero municipal, grandes focos de contaminación ambiental. Y los hospitales, escuelas, centros de salud o mercados se encuentran lejos de donde vive la gente.
+                    </p>
+                </div>
+
+                <div class="step" data-step="4">
+                    <p>Si, por ejemplo, mapeamos el <a href="https://www.cepal.org/sites/default/files/presentations/2017-05-betty-pastor-bo.pdf">índice de necesidades básicas insatisfechas (NBI)</a>, la zona sur es claramente mucho más pobre que el norte.
+                    </p>
+                </div>
+
+                <div class="step" data-step="5">
+                    <p>En los distritos del sur, hay menos centros de salud que en el norte, además de que es difícil llegar a ellos por las largas distancias.
+                    </p>
+                </div>
+
+                <div class="step" data-step="6">
+                    <p> Si hablamos de oportunidades educativas, la población del sur estudia menos años que la del norte.
+                    </p>
+                </div>
+
+                <div class="step" data-step="7">
+                    <p>Incluso el internet es más rápido en el norte que en el sur.
+                    </p>
+                </div>
+
+                <div class="step" data-step="8">
+                    <p>Estas desigualdades tienen un gran impacto en la calidad y tiempo de vida de las personas. El 2013, <a href="https://docplayer.es/38068964-El-agua-nuestra-de-cada-dia.html">una investigación</a> que analizó los censos de población y vivienda, demostró que la gente tiende a vivir menos si reside en la zona sur.
+                    </p>
+                </div>
+
+                <div class="step" data-step="8">
+                    <p>En promedio, <b>las personas del norte de Cochabamba viven 69 años. En el sur, 59.</b> Una brecha de 10 años de esperanza de vida.
+                    </p>
+                </div>
+
+                <div class="step" data-step="9">
+                    <p>Pero estas desigualdades no sólo están presentes en Cochabamba. Todas las ciudades de Bolivia presentan el mismo patrón: una zona central privilegiada, y otra marginada.
+                    </p>
+                </div>
+
+                <div class="step" data-step="10">
+                    <p>Bolivia tiene ciudades desiguales y fragmentadas.
+                    </p>
+                </div>
+
+                <div class="step" data-step="11">
+                    <p>Ciudades duales.
+                    </p>
+                </div>
+
+                <div class="step" data-step="11">
+                    <p>¿Cómo es que las ciudades bolivianas terminaron siendo tan desiguales?
+                    </p>
+                </div>
+            </article>
+        </section>
+
+        <section class="texto-3">
+            <div>
+                <h1>Cómo Bolivia se volvió en un país urbano y desigual</h1>
+                <br>
+                <p style="text-align: right">Por: <a href="https://ciudatos-bolivia.org/">Ciudatos Bolivia</a>
+                </p>
+                <br>
+                <p>En comparación a otros países latinoamericanos, el país se urbanizó muy tarde, a finales del siglo XX e inicios del siglo XXI.</p>
+                <br>
+                <p>Entre 1980 y el 2000, sin embargo, las ciudades crecieron a escalas nunca antes vistas y a una velocidad impresionante. En tan solo 20 años, municipios como El Alto y Santa Cruz, pasaron de tener 400.000 y 690.000 habitantes en 1992; a 850.000 y 1.400.000 habitantes, respectivamente, el 2012.</p>
+                <br>
+                <div class="flourish-embed" data-src="visualisation/13768011">
+                    <script src="https://public.flourish.studio/resources/embed.js"></script>
+                </div>
+                <p>Esta urbanización acelerada conformó tres áreas urbanas enormes, compuestas por varios municipios cuyos límites territoriales comenzaron a borrarse. Hablamos de las áreas metropolitanas de La Paz, Cochabamba y Santa Cruz, <a href="https://library.fes.de/pdf-files/bueros/bolivien/04541.pdf">donde se concentra alrededor del 45% de la población boliviana.</a></p>
+                <br>
+                <p>Junto con las áreas metropolitanas, emergieron decenas de ciudades intermedias, con gran importancia para la economía nacional.</p>
+                <br>
+                <div class="flourish-embed" data-src="story/2078078">
+                    <script src="https://public.flourish.studio/resources/embed.js"></script>
+                </div>
+                <br>
+                <p>Durante la mayor parte de su historia Bolivia ha sido rural, pero hoy el 75% de la población se ha urbanizado. Es más, se estima que para el 2050, el 80% de la población vivirá en ciudades.
+                </p>
+                <br>
+        </section>
+
+        <section class="scrolly" data-flourishid="2075808">
+            <figure class="figure__full">
+                <iframe class="image__full" scrolling="no"
+                    src="https://flo.uri.sh/story/2075808/embed#slide-0"></iframe>
+            </figure>
+
+            <article class="article__center">
+                <div class="step" data-step="0">
+                    <p>Las ciudades bolivianas nacieron ligadas a la minería que fue, desde el siglo XVI hasta el siglo XX la principal fuente económica de la colonia y, posteriormente, del país.
+                    </p>
+                </div>
+
+                <div class="step" data-step="0">
+                    <p>Algunas ciudades cumplieron el rol de centros administrativos, como Sucre durante el periodo colonial, o La Paz después de la Guerra Federal de 1899. 
+                    </p>
+                </div>
+
+                <div class="step" data-step="0">
+                    <p>Otras ciudades aparecieron alrededor de los centros de extracción minera. Este fue el caso de Potosí durante la colonia. O también localidades como Huanuni que tuvo gran importancia durante el ciclo del estaño a lo largo del siglo XX.
+                    </p>
+                </div>
+
+                <div class="step" data-step="1">
+                    <p>Aunque las ciudades mineras atraían a miles de personas, la mayoría de los bolivianos vivían en áreas rurales, trabajando para grandes terratenientes bajo el injusto sistema de pongueaje. Las comunidades campesinas se dedicaban a enviar recursos y bienes a los centros mineros y administrativos.
+                    </p>
+                </div>
+
+                <div class="step" data-step="1">
+                    <p>Todo comenzó a cambiar a mediados del siglo XX. Tras la revolución de 1952, el Estado nacionalizó las minas y creó COMIBOL, la empresa estatal que se encargó de la administración del estaño y empleó a miles de trabajadores.
+                    </p>
+                </div>
+
+                <div class="step" data-step="2">
+                    <p>Además, se hicieron grandes inversiones para colonizar el oriente boliviano, que hasta entonces había estado marginado de la realidad nacional. Se construyeron carreteras para conectar el territorio y se invirtió enormemente en el desarrollo de su sector agrícola.
+                    </p>
+                </div>
+
+                <div class="step" data-step="2">
+                    <p>Previamente, Santa Cruz había experimentado algunos episodios de urbanización, <a href="https://www.youtube.com/watch?v=KKdwDMcLGuc">como con el boom exportador de la goma en 1900, o con la movilización de tropas hacia la Guerra del Chaco en 1930.</a> Sin embargo, la enorme metrópolis cruceña que hoy conocemos, se originó en la “marcha hacia el oriente”, impulsada desde el Estado.
+                    </p>
+                </div>
+
+                <div class="step" data-step="3">
+                    <p>Tras un largo periodo de gobiernos y dictaduras militares desde 1964, Bolivia recuperó la democracia en 1982, e inmediatamente entró en crisis económica e hiperinflación.
+                    </p>
+                </div>
+
+                <div class="step" data-step="3">
+                    <p>En agosto de 1985, el gobierno del MNR proclamó el Decreto Supremo 21060, que implicó la privatización de muchas empresas estatales y el despido de aproximadamente 25.000 mineros de COMIBOL.</p>
+                </div>
+
+                <div class="step" data-step="4">
+                    <p>Aunque hubo resistencia a los despidos por parte de las familias mineras, al final, se vieron obligadas a migrar a las ciudades en busca de empleo. Por su parte, las comunidades campesinas que tenían como principal mercado a los centros mineros, también tuvieron que migrar.</p>
+                </div>
+
+                <div class="step" data-step="4">
+                    <p>Esta migración masiva convirtió a Bolivia en el país urbano que es hoy.</p>
+                </div>
+
+                <div class="step" data-step="4">
+                    <p>Mientras que la urbanización en otros países respondía a la industrialización; en las ciudades bolivianas de los 80 no había ni industrias, ni trabajo. Así que los mineros y campesinos encontraron empleos en la informalidad: en las ciudades, se volvieron comerciantes, mecánicos, sastres, o choferes.
+                    </p>
+                </div>
+
+                <div class="step" data-step="5">
+                    <p>Pero los migrantes no fueron recibidos en las ciudades con infraestructura o servicios básicos. La gente que se había asentado en las periferias urbanas, comenzó a asociarse en barrios y juntas vecinales, para reclamar y conseguir lo básico, como electricidad, agua, caminos y escuelas.</p>
+                </div>
+
+                <div class="step" data-step="5">
+                    <p>Los urbanistas concuerdan que, durante el periodo neoliberal, se abandonó la planificación urbana y se dejó todo en manos del mercado de tierras. Los loteadores y grandes empresas inmobiliarias sanearon y vendieron terrenos sin restricciones, lo que significó, además, graves problemas ambientales.
+                    </p>
+                </div>
+
+                <div class="step" data-step="5">
+                    <p>Desde entonces, la gente de las periferias fue construyendo la ciudad bajo sus propios medios, sin ayuda. El resultado son las ciudades duales y precarias en las que vivimos.
+                    </p>
+                </div>
+        </section>
+
+        <section class="texto-3">
+            <div>
+                <h1>¿Dónde están las políticas urbanas?</h1>
+                <br>
+                <p>El 2006, Bolivia eligió con más del 60% de votos a Evo Morales, quien representaba a un gobierno que prometía luchar contra las desigualdades y la pobreza. La época de crisis económica se había terminado, y el Estado ahora contaba con muchos recursos provenientes de las exportaciones del gas natural.
+                </p>
+                <br>
+                <p>Pero, para la socióloga Escarley Torrico, la política urbana no cambió mucho desde entonces.
+                </p>
+                <br>
+                <p>La experta nos cuenta que el nuevo gobierno, en todos sus niveles, no tenía una visión clara de desarrollo ni una cultura de planificación. Entonces, comenzó a invertir en grandes infraestructuras y construcciones, que no necesariamente respondían a las necesidades de las ciudades. Se inauguraron grandes pasos a desnivel, puentes, canchas de fútbol, hospitales y mega obras, <a href="https://data.eldeber.com.bo/seccion/niboliviacambionievocumplio/">que en muchos casos lamentablemente terminaron en escándalos de corrupción o en el abandono.</a></p>
+                <br>
+                <p>Al mismo tiempo, los recursos económicos e instrumentos de planificación se centralizaron. El 2023, el <a href="https://repositorio.economiayfinanzas.gob.bo/documentos/Documentos_de_Interes/21-11-25-PGE-2022-pres.pdf">Presupuesto General del Estado asignó el 85% de los recursos al gobierno central y a las empresas públicas; mientras que los municipios y gobernaciones se quedaron solamente con el 4%.</a></p>
+                <br>
+                <p>A su vez, la Ley no. 777, colocó el requisito de que todos los planes de desarrollo municipales (ahora llamados PTDIs) <a href="https://www.uajms.edu.bo/dpu/wp-content/uploads/sites/26/2018/06/LEY-SPIE-N%C2%BA-777.pdf">deben ser aprobados primero por el gobierno central.</a> Para muchos urbanistas bolivianos la ley se tradujo en <a href="https://eldeber.com.bo/edicion-impresa/leyes-777-y-1407-la-consolidacion-del-estado-centralizado-con-planificacion-estalinista_257054">mayor control político sobre los gobiernos locales.</a> Con la ley, los gobiernos municipales y gobernaciones afines al partido de gobierno recibían más recursos; y los municipios con gobiernos de oposición se veían seriamente perjudicados, con menos obras y proyectos.</p>
+                <br>
+                <p>Además, ante la falta de planificación territorial desde los 80, el mercado de tierras sigue desregulado. Recientemente, en el departamento de Santa Cruz, hubo una gran polémica por la construcción de una carretera que pasaba por una importante zona de recarga de acuíferos. <a href="https://eldeber.com.bo/pais/ofertan-a-servidores-publicos-casi-20-mil-lotes-dentro-del-area-de-recarga-de-acuiferos-guenda-urubo_337927"> La zona había sido previamente loteada y habían planes públicos para urbanizarla, pese a su gran importancia ambiental y social.</a></p>
+                <br>
+                <p>Las ciudades siguen creciendo precariamente, como en los 80 y 90. Pero, ¿dónde están las políticas urbanas?</p>
+                <br>
+                <p>El 75% de la población boliviana hoy en día vive en ciudades, pero al día de hoy, éstas son espacios segregados y desiguales, con muchos problemas que quedan por resolver. En vísperas del Censo de 2024 y las elecciones de 2025, la planificación y la mejora de vida en las ciudades tiene que ser una prioridad política para el país.
+                </p>
+                <br>
+            </div>
+        </section>
+        
+        <section class="scrolly" data-flourishid="2075841">
+                <figure class="figure__full">
+                    <iframe class="image__full" scrolling="no"
+                        src="https://flo.uri.sh/story/2075841/embed#slide-0"></iframe>
+                    </figure>
+        </section>
+
+        <section class="texto">
+            <div>
+                <br>
+                <h1>Créditos</h1>
+                <br>
+                <h2>Autoría</h2>
+                <p>Valeria Peredo (Redacción y visualizaciones)</p>
+                <p>Ever Vino y Natalia Calle (Procesamiento GIS)</p>
+                <p>Leonardo Zeballos y Viviana Silva (revisión hemerográfica e investigación)</p>
+                <br>
+                <h2>Datos</h2>
+                <p>Los mapas y visualizaciones fueron elaborados con las siguientes fuentes de datos:</p>
+                <br>
+                <ul>
+                    <li><a href="https://ciudatos-bolivia.org/dataset/necesidades-basicas-insatisfechas-por-manzanos-en-las-ciudades-de-bolivia-2012">Necesidades Básicas Insatisfechas por manzanos (ONU-Habitat Bolivia)</a></li>
+                    <li><a href="https://ciudatos-bolivia.org/dataset/centros-de-salud-en-bolivia-2016">Centros de salud en Bolivia (Ministerio de Salud, 2016)</a></li>
+                    <li><a href="https://ciudatos-bolivia.org/dataset/anos-de-estudio-promedio-por-manzanos-en-las-ciudades-de-bolivia-2012"></a>Años de estudio por manzanos (ONU-Habitat Bolivia)</li>
+                    <li><a href="https://ciudatos-bolivia.org/dataset/velocidad-de-internet-en-bolivia">Velocidad de descarga de internet móvil en Bolivia (Lab TecnoSocial)</a></li>
+                    <li><a href="https://ciudatos-bolivia.org/dataset/proyecciones-de-la-poblacion-urbana-y-rural-de-bolivia-1950-2050">Datos de urbanización en Bolivia (World Urbanization prospects)</a></li>
+                </ul>
+                <br>
+                <h2>Entrevistas</h2>
+                <p>Escarley Torrico (Socióloga e investigadora urbana)</p>
+                <br>
+                <h2>Edición</h2>
+                <p>Alex Ojeda, Lab TecnoSocial</p>
+                <br>
+                <h2>Videos</h2>
+                <p><a href="https://youtu.be/H68M4kwpaBo?si=Wwi4g57hB_WA_N5H">Vista en dron de la Zona Norte de Cochabamba</a></p>
+                <p><a href="https://youtu.be/CsvNyOQIawE?si=KLNYHUqj38JzpurK">Vista en dron de la Zona sur de Cochabamba</a></p>
+                <p><a href="https://youtu.be/AEDbtyLzxQM?si=Pr4sqwpeHg0hW208">Historia de la Minería en Bolivia (Ministerio de Educación)</a></p>
+                <p><a href="https://www.youtube.com/watch?v=3pmo8d0MlXI">La marcha al oriente: el plan Bohan (Ministerio de Educación)</a></p>
+                <p><a href="https://youtu.be/RUrAxKU7-xk?si=x-wQWCJdWdVmgf2O">Discurso del ex-presidente Victor Paz: "Bolivia se nos muere"</a></p>
+                <p><a href="https://youtu.be/qgThprkOpeU?si=rtJTXRiTQiU3AcTv">Tomas de la Marcha por la Vida, 1986</a></p>
+                <p><a href="https://youtu.be/74yN9HqIXNo?si=U3Q7NyhfWyqQRpqt">Documental: Zona sur de Cochabamba, la gran olvidada</a></p>
+                <br>
+                <div class="logo-cont">
+                    <div class="logociudatos">
+                        <a href="https://ciudatos-bolivia.org/">
+                            <img src="https://ciudatos-bolivia.org/user_images/preview-ciudatos.png" width="150px">
+                        </a>
+                    </div>
+                    <div class="logolab">
+                        <a href="https://labtecnosocial.org/">
+                            <img src="https://labtecnosocial.org/wp-content/uploads/2021/07/logo-claro.png" width="100px">
+                    </div>
+                </div>
+
+
+            </div>
+        </section>
+    </main>
+
+    <script>
+        const indicator = document.querySelector('.indicator');
+        setTimeout(() => {
+            indicator.style.display = 'none';
+        }, 10000);
+        const scroller = scrollama();
+
+        function handleStepEnter(response) {
+            const { element, index, direction } = response;
+            element.classList.add("is-active");
+
+            if (element.dataset.step) {
+                const id = element.parentElement.parentElement.dataset.flourishid;
+                const link = `https://flo.uri.sh/story/${id}/embed#slide-`;
+                const slide = element.dataset.step;
+                document.querySelector(`section[data-flourishid="${id}"] iframe`)
+                    .setAttribute('src', link + slide);
+            }
+        }
+
+        function handleStepExit(response) {
+            const { element, index, direction } = response;
+            element.classList.remove("is-active");
+        }
+
+
+        function init() {
+            scroller
+                .setup({
+                    step: ".step",
+                    offset: 0.5,
+                    debug: false,
+
+                })
+                .onStepEnter(handleStepEnter)
+                .onStepExit(handleStepExit);
+
+
+            window.addEventListener("resize", scroller.resize);
+        }
+
+        init();
+    </script>
+</body>
+
+</html>
